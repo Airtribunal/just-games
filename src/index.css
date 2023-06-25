@@ -39,6 +39,38 @@ button {
   padding-top: 2.5rem;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+  max-width: 170px;
+  background: #70CB89;
+  box-shadow: 0px 4px 11px 3px #354F52;
+  border-radius: 15px;
+}
+
+.logo-lets {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.logo img {
+  width: 60px;
+  padding: 0 10px;
+}
+
+.logo-circle {
+  width: 25px;
+  height: 25px;
+  background: linear-gradient(195deg, #3B726E 0%, #354F52 100%);
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.27);
+  border: 1px solid rgba(255, 255, 255, 0.63);
+
+  border-radius: 50%;
+}
+
 .nav-links a {
   margin: 0px 30px;
   color: hsl(0, 0%, 80%);
@@ -109,6 +141,12 @@ button {
 
   background: linear-gradient(45deg, #71CD8A 0%, #CB2E2D 100%);
   box-shadow: 0px 2px 7px 2px #52887F;
+
+  transition: color .3s ease;
+}
+
+.hero-button:hover {
+  color: #000;
 }
 
 .hero-img {

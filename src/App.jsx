@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 function App() {
+
   const navLinks = [
     { name: "главная", link: "#" },
     { name: "о нас", link: "#" },

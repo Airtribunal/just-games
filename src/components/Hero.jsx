@@ -8,7 +8,7 @@ function Hero() {
         <div className="hero-content">
           <div className="hero-greet">
             <h1 className="hero-title">
-              В <span>Potapov Games</span> вы найдете всё по{" "}
+              В <span>JustGames</span> вы найдете всё по{" "}
               <span> вкусной </span> цене.
             </h1>
             <h5 className="hero-description">
