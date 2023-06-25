@@ -6,7 +6,7 @@ function Advantages(props)
     return(
         <section className="Advantages">
             <div className="container">
-                <h1 className="AdvTitle">За что нас ценят больше всего</h1>
+                <h1 className="section-title">За что нас ценят больше всего</h1>
                 <div className="AdvCard-container">
                     {props.cards}
                 </div>
