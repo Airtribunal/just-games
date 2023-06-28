@@ -1,4 +1,5 @@
 import React from "react";
+import rectangle from "../images/Rectangle 15.png";
 
 function Contact() {
   return (
@@ -13,6 +14,8 @@ function Contact() {
             <textarea name="" placeholder="СООбЩЕНИЕ"></textarea>
             <button onClick={(e) => e.preventDefault()} className="submit-button">отправить</button>
           </form>
+          <div className="rectangle"></div>
+          <img src={rectangle}></img>
         </div>
       </div>
     </section>

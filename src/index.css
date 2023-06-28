@@ -226,6 +226,7 @@ textarea {
   margin-top: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .contact-form input {
@@ -279,3 +280,13 @@ textarea {
 .submit-button:hover {
   color: #000;
 }
+
+.rectangle
+{
+  width: 20px;
+  color: #fff;
+  height: 550px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
