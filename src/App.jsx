@@ -11,8 +11,8 @@ function App() {
   // Navigation Links
   const navLinks = [
     { name: "главная", link: "#" },
-    { name: "о нас", link: "#" },
     { name: "товары", link: "#" },
+    { name: "о нас", link: "#" },
     { name: "корзина", link: "#" },
   ];
 
@@ -41,8 +41,8 @@ function App() {
     },
   ];
 
-  const advantageCards = advantageData.map((card) => (
-    <AdvantageCard name={card.name} desc={card.desc} img={card.img} />
+  const advantageCards = advantageData.map((card, id) => (
+    <AdvantageCard key={id} {...card} />
   ));
 
   return (
