@@ -30,7 +30,7 @@ function Contact() {
     ) {
       toast("Заполните все поля! 🌋", {
         position: "bottom-center",
-        type: 'error',
+        type: "error",
         autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
@@ -40,9 +40,17 @@ function Contact() {
         theme: "dark",
       });
     } else {
+      setFormData(() => {
+        return {
+          name: "",
+          mail: "",
+          phoneNumber: "",
+          message: ""
+        };
+      });
       toast("Сообщение успешно отправилось! 💗", {
         position: "bottom-center",
-        type: 'success',
+        type: "success",
         autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
