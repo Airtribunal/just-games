@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 function App() {
   // Navigation Links
   const navLinks = [
-    { name: "главная", link: "#" },
+    { name: "главная", link: "https://casp.pro" },
     { name: "товары", link: "#" },
     { name: "о нас", link: "#" },
     { name: "корзина", link: "#" },
